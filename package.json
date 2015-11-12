@@ -1,0 +1,27 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe game 1player",
+  "main": "npm install babelify browserify --save",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify game.js --outfile game.dis.js --transform babelify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ongmin/wdi-sg-playground/tree/master/Nov06-HTMLCSSJS-TicTacToe_1player"
+  },
+  "keywords": [
+    "Tictactoe",
+    "1player"
+  ],
+  "author": "Min",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-stage-0": "^6.1.2",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "standard": "^5.3.1"
+  }
+}
