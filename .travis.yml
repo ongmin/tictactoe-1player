@@ -3,4 +3,4 @@ node_js:
   - "4.1"
 
 before_install:
-  - "cd Nov11-WorkflowTools/Tictactoe"
+  - "cd Tictactoe"
