@@ -4,9 +4,13 @@
   "description": "Tic Tac Toe game 1player",
   "main": "npm install babelify browserify --save",
   "scripts": {
+    "start": "npm run build && http-server dist",
     "test": "standard",
-    "build": "mkdir dist && browserify game.js --outfile game.dist.js --transform babelify",
-    "start": "npm run build && http-server game"
+    "clean": "rm -rf dist",
+    "build": "npm run clean && mkdir dist && npm run build-html && npm run build-css && npm build-js",
+    "build-html": "cp game/index.html dist/index.html",
+    "build-css": "cp game/game.css dist/game.css",
+    "build-js": "browserify game/game.js --outfile dist/game.dist.js --transform babelify"
   },
   "repository": {
     "type": "git",
