@@ -7,14 +7,14 @@
     "start": "npm run build && http-server dist",
     "test": "standard",
     "clean": "rm -rf dist",
-    "build": "npm run clean && mkdir dist && npm run build-html && npm run build-css && npm build-js",
+    "build": "npm run clean && mkdir dist && npm run build-html && npm run build-css && npm run build-js",
     "build-html": "cp game/index.html dist/index.html",
     "build-css": "cp game/game.css dist/game.css",
-    "build-js": "browserify game/game.js --outfile dist/game.dist.js --transform babelify"
+    "build-js": "browserify game/game.js --outfile dist/game.js --transform babelify"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ongmin/wdi-sg-playground/tree/master/Nov06-HTMLCSSJS-TicTacToe_1player"
+    "url": "https://github.com/ongmin/tictactoe-1player"
   },
   "keywords": [
     "Tictactoe",
@@ -27,6 +27,7 @@
     "babel-preset-stage-0": "^6.1.2",
     "babelify": "^7.2.0",
     "browserify": "^12.0.1",
+    "http-server": "^0.8.5",
     "standard": "^5.3.1"
   }
 }
