@@ -1,6 +1,8 @@
 body {
   background-color: black;
   font-size: 0;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
 }
 
 .row{
@@ -16,7 +18,7 @@ body {
   height: 200px;
   width: 200px;
   display: block;
-  color: #FF6663;
+  color: black;
   vertical-align: top;
   font-size: 80pt;
   font-family: 'Verdana';
