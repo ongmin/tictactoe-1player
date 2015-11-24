@@ -7,6 +7,6 @@
 [View me on Heroku (under construction!)](http://tictactoelolo.herokuapp.com)
 
 
-GA WDI Week 1 assignment
-Created in-class with HTML, CSS and Javascript
-Play against the "computer" :smiley:
+GA WDI Week 1 assignment  
+Created in-class with HTML, CSS and Javascript  
+Play against the "computer" :smiley:  
